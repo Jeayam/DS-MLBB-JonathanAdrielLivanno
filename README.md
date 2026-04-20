@@ -25,7 +25,7 @@ Sedangkan pada tree structure, satu node bisa memiliki banyak child sehingga mem
 <br>--> Dalam kode saya tidak ada Corrosion Scythe karena saya memilih item kategori DEFENSE. Jadi untuk path saya akan menggunakan salah satu item contoh seperti Guardian Helmet. Path saat mencari Guardian Helmet adalah Start Build --> Guardian Helmet, Child dan Children Node dari “Guardian Helmet” tidak muncul saat mencari path karena fungsi findPath() hanya menampilkan jalur dari root sampai node yang dicari, lalu berhenti ketika target ditemukan, sehingga tidak melanjutkan ke child node setelahnya. Tapi Kenapa saat print dan user input "Guardian Helmet" muncul semua child dan children node nya? Saat menggunakan printTree() atau printSubTree(), semua child dari node tersebut akan ditelusuri dan ditampilkan karena fungsi tersebut memang dirancang untuk menjelajahi seluruh struktur ke bawah. Jadi, perbedaannya adalah findPath() fokus pada satu jalur menuju target, sedangkan print fokus pada seluruh cabang di bawah node tersebut.
 <br>
 <h1> --Result of Practice Tasks-- </h1>
-![Screenshot 1](ouput_screenshot/Screenshot1.png)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ![Screenshot 2](src/ouput_screenshot/Screenshot2.png)
 <br>
 <h1> --REFLECTION-- </h1>
