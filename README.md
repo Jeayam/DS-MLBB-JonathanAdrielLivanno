@@ -25,8 +25,8 @@ Sedangkan pada tree structure, satu node bisa memiliki banyak child sehingga mem
 <br>--> Dalam kode saya tidak ada Corrosion Scythe karena saya memilih item kategori DEFENSE. Jadi untuk path saya akan menggunakan salah satu item contoh seperti Guardian Helmet. Path saat mencari Guardian Helmet adalah Start Build --> Guardian Helmet, Child dan Children Node dari “Guardian Helmet” tidak muncul saat mencari path karena fungsi findPath() hanya menampilkan jalur dari root sampai node yang dicari, lalu berhenti ketika target ditemukan, sehingga tidak melanjutkan ke child node setelahnya. Tapi Kenapa saat print dan user input "Guardian Helmet" muncul semua child dan children node nya? Saat menggunakan printTree() atau printSubTree(), semua child dari node tersebut akan ditelusuri dan ditampilkan karena fungsi tersebut memang dirancang untuk menjelajahi seluruh struktur ke bawah. Jadi, perbedaannya adalah findPath() fokus pada satu jalur menuju target, sedangkan print fokus pada seluruh cabang di bawah node tersebut.
 <br>
 <h1> --Result of Practice Tasks-- </h1>
-![Screenshot 1](https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/fd9e3e63570e8a8d1d21593202af28ea4b40e63b/src/ouput_screenshot/Screenshot1.png)
-<br>![Screenshot 1](OutPut_Screenshot/Screenshot2.png)
+![Screenshot 1](src/ouput_screenshot/Screenshot1.png)
+<br>![Screenshot 2](src/ouput_screenshot/Screenshot2.png)
 <br>
 <h1> --REFLECTION-- </h1>
 1. Why is a tree more suitable than an array for representing item purchase possibilities?
