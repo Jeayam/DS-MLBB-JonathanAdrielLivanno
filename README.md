@@ -21,7 +21,7 @@ Sedangkan pada tree structure, satu node bisa memiliki banyak child sehingga mem
 <br>5. How does recursion help when working with trees?
 <br>--> Rekursi membantu dalam tree karena setiap node memiliki struktur yang sama (bisa punya child yang juga node), sehingga satu fungsi bisa dipakai ulang untuk semua level. Fungsi akan memproses node saat ini lalu memanggil dirinya sendiri untuk setiap child, sehingga bisa menjelajahi seluruh cabang tanpa perlu loop bertingkat manual. Ini membuat operasi tree seperti search, print, dan hitung jadi lebih sederhana dan rapi.
 <br>
-<br>What path is printed when searching for Corrosion Scythe?
+<br>6. What path is printed when searching for Corrosion Scythe?
 <br>--> Dalam kode saya tidak ada Corrosion Scythe karena saya memilih item kategori DEFENSE. Jadi untuk path saya akan menggunakan salah satu item contoh seperti Guardian Helmet. Path saat mencari Guardian Helmet adalah Start Build --> Guardian Helmet, Child dan Children Node dari “Guardian Helmet” tidak muncul saat mencari path karena fungsi findPath() hanya menampilkan jalur dari root sampai node yang dicari, lalu berhenti ketika target ditemukan, sehingga tidak melanjutkan ke child node setelahnya. Tapi Kenapa saat print dan user input "Guardian Helmet" muncul semua child dan children node nya? Saat menggunakan printTree() atau printSubTree(), semua child dari node tersebut akan ditelusuri dan ditampilkan karena fungsi tersebut memang dirancang untuk menjelajahi seluruh struktur ke bawah. Jadi, perbedaannya adalah findPath() fokus pada satu jalur menuju target, sedangkan print fokus pada seluruh cabang di bawah node tersebut.
 <br>
 <h1> --REFLECTION-- </h1>
