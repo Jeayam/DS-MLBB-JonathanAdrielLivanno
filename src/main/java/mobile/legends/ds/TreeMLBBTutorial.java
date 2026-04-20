@@ -13,7 +13,7 @@ public class TreeMLBBTutorial {
         ItemNode(String name, String note) {
             this.name = name;
             this.note = note;
-            this.children = new ArrayList<>();
+            this.children    = new ArrayList<>();
         }
 
         void addChild(ItemNode child) {
@@ -35,16 +35,6 @@ public class TreeMLBBTutorial {
 
     return null;
 }
-static void printSubTree(ItemNode node, int level) {
-    if (node == null) return;
-
-    String indent = " ".repeat(level * 2);
-    System.out.println(indent + "- " + node.name);
-
-    for (ItemNode child : node.children) {
-        printSubTree(child, level + 1);
-    }
-}
 
     static void printTree(ItemNode node, int level) {
         if (node == null) return;
@@ -56,6 +46,17 @@ static void printSubTree(ItemNode node, int level) {
             printTree(child, level + 1);
         }
     }
+
+static void printSubTree(ItemNode node, int level) {
+    if (node == null) return;
+
+    String indent = " ".repeat(level * 2);
+    System.out.println(indent + "- " + node.name);
+
+    for (ItemNode child : node.children) {
+        printSubTree(child, level + 1);
+    }
+}
 
     static void printAllBuildPaths(ItemNode node, List<String> path) {
         if (node == null) return;
