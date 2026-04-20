@@ -25,7 +25,17 @@ Sedangkan pada tree structure, satu node bisa memiliki banyak child sehingga mem
 <br>--> Dalam kode saya tidak ada Corrosion Scythe karena saya memilih item kategori DEFENSE. Jadi untuk path saya akan menggunakan salah satu item contoh seperti Guardian Helmet. Path saat mencari Guardian Helmet adalah Start Build --> Guardian Helmet, Child dan Children Node dari “Guardian Helmet” tidak muncul saat mencari path karena fungsi findPath() hanya menampilkan jalur dari root sampai node yang dicari, lalu berhenti ketika target ditemukan, sehingga tidak melanjutkan ke child node setelahnya. Tapi Kenapa saat print dan user input "Guardian Helmet" muncul semua child dan children node nya? Saat menggunakan printTree() atau printSubTree(), semua child dari node tersebut akan ditelusuri dan ditampilkan karena fungsi tersebut memang dirancang untuk menjelajahi seluruh struktur ke bawah. Jadi, perbedaannya adalah findPath() fokus pada satu jalur menuju target, sedangkan print fokus pada seluruh cabang di bawah node tersebut.
 <br>
 <h1> --RESULT OF PRACTICE TASKS-- </h1>
-
+Task 1  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task1.png
+<br>        -> Fleeting dan Radiant setelah Start Build
+<br>
+<br>Task 2  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task2.png
+<br>
+<br>Task 3  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task3.png
+<br>
+<br>Task 4  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task4.png
+<br>
+<br>Task 5  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task5.png
+<br>        : Saya menambahkan Mystery Codex untuk melihat height nya bertambah atau tidak, dan heightnya bertambah, karena di bagian guardian helmet adalah node yang paling tinggi height nya, jadi jika di tambah otomatis height tree juga tertambah
 <br>
 <h1> --REFLECTION-- </h1>
 1. Why is a tree more suitable than an array for representing item purchase possibilities?
