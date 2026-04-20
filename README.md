@@ -35,7 +35,7 @@ Task 1  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba4
 <br>Task 4  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task4.png
 <br>
 <br>Task 5  : https://github.com/Jeayam/DS-MLBB-JonathanAdrielLivanno/blob/e39a6cba43194cdfd3f0b2828ec465a996324cdf/ouput_screenshot/Task5.png
-<br>        : Saya menambahkan Mystery Codex untuk melihat height nya bertambah atau tidak, dan heightnya bertambah, karena di bagian guardian helmet adalah node yang paling tinggi height nya, jadi jika di tambah otomatis height tree juga tertambah
+<br>        -> Saya menambahkan Mystery Codex untuk melihat height nya bertambah atau tidak, dan heightnya bertambah, karena di bagian guardian helmet adalah node yang paling tinggi height nya, jadi jika di tambah otomatis height tree juga tertambah
 <br>
 <h1> --REFLECTION-- </h1>
 1. Why is a tree more suitable than an array for representing item purchase possibilities?
